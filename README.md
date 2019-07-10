@@ -14,7 +14,7 @@
 
 2. 创建git仓库之前，Linux需要新建git用户，专门管理git仓库。Linux系统注重用户权限隔离，一个用户/用户组管理一个应用。
 
-3. 登录git服务器使用SRA方式更为安全，本地使用`ssh`生成密钥：
+3. 登录git服务器使用RSA方式更为安全，本地使用`ssh`生成密钥：
     ```
     ssh-keygen -t rsa -C "test.name@email"
     ```
